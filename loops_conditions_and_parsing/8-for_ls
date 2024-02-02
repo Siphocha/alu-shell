@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#This is a script that displays current directory in list format with a little dazzle
+for i in *
+do
+    echo "$i" | cut -f 2- -d '-'
+done

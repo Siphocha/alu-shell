@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#This script will print "Best School" but for the 4th and 8th iterations prints other things.
+counter=0
+while [ $counter -lt 10 ]
+do
+if [ $counter -eq 4 ]
+then
+	echo "bad luck"
+if [ $counter -eq 8 ]
+then
+	echo "good luck"
+fi
+	echo "Best School"
+((counter++))
+done
