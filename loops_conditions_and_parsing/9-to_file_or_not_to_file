@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-#Complicated bash script that checks if a file is present or not
+#This script gives information about the school file. essentially checking its existence and status.
+file="school"
 if [ -e $file ]
 then
     echo "$file file exists"
