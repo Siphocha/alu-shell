@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#This script is for displaying current processes but this time with the word bash at the end.
+# shellcheck disable=SC2009
+ps -aux --forest | grep bash
