@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#A script that kills a PID proccess of specific file emulating "ctrl+C"
+pgrep -f 4-to_infinity_and_beyond | xargs kill -15
