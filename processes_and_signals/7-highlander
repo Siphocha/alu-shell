@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Script that prints text ifnitly...but a 2 second delay before repeats AND another piece of text whea SIGTERm signal is processed.
+trap 'echo "I am invincible!!!"' SIGTERM
+while:
+do 
+	echo "To infinity and beyond"
+	sleep 2
+done
