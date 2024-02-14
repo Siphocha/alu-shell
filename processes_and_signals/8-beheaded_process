@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Script that kills former Number 7 script. nothing special for some reason.
+kill -9 "$(pgrep -f highlander)"
