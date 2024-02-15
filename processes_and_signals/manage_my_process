@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#This bash script works in tandem with 11-manage_my_process
+while [[ 1 -eq 1 ]]; do
+    echo "I am alive!" >> /tmp/my_process
+    sleep 2
+done
